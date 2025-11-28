@@ -1,0 +1,118 @@
+.main {
+    width: 100%;
+    display: flex;
+    gap: 6rem;
+}
+.bottem-space {
+    margin-bottom: 1rem;
+}
+
+/* digits 1 to 3 */
+.digit-1 {
+    border-right: 2px solid;
+    height: 10rem;
+    width: 5rem;
+}
+.digit-2-1, 
+.digit-2-2 {
+    border: 2px solid;
+    width: 5rem;
+    height: 5rem;
+}
+.digit-2-1 {
+    border-left: none;
+}
+.digit-2-2 {
+    border-right: none;
+}
+.digit-3-1,
+.digit-3-2 {
+    border: 2px solid;
+    border-left: none;
+    width: 5rem;
+    height: 5rem;
+}
+
+/* digits 4 to 6 */
+
+.digit-4-1,
+.digit-4-2 {
+    width: 5rem;
+    height: 5rem;
+}
+.digit-4-1 {
+    border: 2px solid;
+    border-top: none;
+}
+.digit-4-2 {
+    border-right: 2px solid;
+}
+.digit-5-1,
+.digit-5-2 {
+    border: 2px solid;
+    width: 5rem;
+    height: 5rem;
+}
+.digit-5-1 {
+    border-right: none;
+}
+.digit-5-2 {
+    border-left: none;
+}
+.digit-6-1,
+.digit-6-2 {
+    border: 2px solid;
+    width: 5rem;
+    height: 5rem;
+}
+.digit-6-1 {
+    border-right: none;
+}
+
+/* digits 7 to 9 */
+.digit-7-1,
+.digit-7-2 {
+    width: 5rem;
+    height: 5rem;
+}
+.digit-7-1 {
+    border-top: 2px solid;
+    border-right: 2px solid;
+}
+.digit-7-2 {
+    border-right: 2px solid;
+}
+.digit-8-1,
+.digit-8-2 {
+    border: 2px solid;
+    width: 5rem;
+    height: 5rem;
+}
+.digit-9-1,
+.digit-9-2 {
+    width: 5rem;
+    height: 5rem;
+}
+.digit-9-1 {
+    border: 2px solid;
+}
+.digit-9-2 {
+    border-right: 2px solid;
+}
+
+/* digit 10 */
+.digit-10 {
+    display: flex;
+    gap: 2rem;
+}
+.digit-10-1,
+.digit-10-2 {
+    width: 5rem;
+    height: 5rem;
+}
+.digit-10-1 {
+    border-right: 2px solid;
+}
+.digit-10-2 {
+    border: 2px solid;
+}
