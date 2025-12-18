@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to left, rgb(187, 162, 126), rgb(233, 171, 78));
+}
+
+/* Box 1 */
+.box-1, 
+.box-2 {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 50%;
+}
+
+/* Box 1 */
+.box-1 {
+    background-color: rgb(92, 86, 86);
+    left: 0;
+    animation: move_box_1 6s ease-in-out forwards;
+}
+
+/* Box 2 */
+.box-2 {
+    background-color: rgb(116, 211, 214);
+    right: 0;
+    animation: move_box_2 6s ease-in-out forwards;
+}
+
+@keyframes move_box_1 {
+    from {
+        left: 0;
+    }
+  to {
+    left: calc(100% - 50%);
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes move_box_2 {
+    from {
+        right: 0;
+    }
+    to {
+        right: calc(100% - 50%);
+        transform: translateX(100%);
+    }
+}
