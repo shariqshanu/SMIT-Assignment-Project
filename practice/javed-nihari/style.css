@@ -20,10 +20,37 @@
 
 
 /* hero section */
+.hero-section {
+    position: relative;
+}
 .hero-section img {
     width: 100%;
     height: auto;
 }
+.pre-arrow, 
+.next-arrow {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 21px;
+    color: #f09c12;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.pre-arrow {
+    background-color: #fff;
+    left: 12px;
+}
+.next-arrow {
+    background-color: antiquewhite;
+    right: 12px;
+}
+.pre-arrow:hover, .next-arrow:hover {
+    color: #f1bf6d;
+}
+
 
 /* navbar */
 nav {
@@ -55,4 +82,31 @@ ul li:hover {
     padding: 10px 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
     font-family: "Poppins", sans-serif;
+}
+.menu-icon {
+    display: none;
+}
+#menu-toggle {
+    display: none;
+}
+
+/* mobile */
+@media (max-width: 710px) {
+    .menu-icon {
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    #menu {
+        display: none;
+        flex-direction: column;
+        background-color: #f29d13;
+    }
+
+    /* magic line */
+    #menuToggle:checked ~ #menu {
+        display: flex;
+    }
 }

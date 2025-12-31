@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <title>Document</title>
 </head>
 <body>
     <div class="back-to-top">⬆</div>
     <section>
         <div class="hero-section">
+            <div class="pre-arrow">pre</div>
+            <div class="next-arrow">next</div>
             <img src="./images/javed-nihari.jpg" alt="banner">
         </div>
     </section>
@@ -17,13 +20,15 @@
     <!-- navbar -->
     <nav>
         <div class="nav-bar">
-            <ul>
+            <input type="checkbox" id="menu-toggle">
+            <div class="menu-icon" id="menuIcon">☰</div>
+            <ul id="menu">
                 <li>Nihari</li>
                 <li>Haleem</li>
                 <li>Biryani / Pulao</li>
                 <li>Tandoor</li>
                 <li>Soft Drink</li>
-                <li> Tin Pack</li>
+                <li>Tin Pack</li>
             </ul>
         </div>
     </nav>

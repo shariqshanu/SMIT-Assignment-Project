@@ -1,0 +1,24 @@
+.parent {
+    background-color: gray;
+    display: flex;
+    /* gap: 2rem; */
+    column-gap: 15px;
+    height: 36rem;
+    align-items: center;
+}
+.box {
+    background: #a2a2c2;
+    /* padding: 5rem; */
+    height: 14rem;
+    width: 14rem;
+    font-size: 2rem;
+    border: 1px solid #9e5656;
+}
+.box.box-2 {
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+.box.box-4 {
+    flex-grow: 1;
+    flex-shrink: 3;
+}
